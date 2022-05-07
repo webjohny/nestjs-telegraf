@@ -16,15 +16,9 @@
   ],
   "homepage": "https://nestjs-telegraf.vercel.app/",
   "bugs": {
-    "url": "https://github.com/bukhalo/nestjs-telegraf/issues"
+    "url": "https://github.com/webjohny/nestjs-telegraf/issues"
   },
-  "repository": "git@github.com:bukhalo/nestjs-telegraf.git",
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://www.tinkoff.ru/sl/95M2htqoxux"
-    }
-  ],
+  "repository": "git@github.com:webjohny/nestjs-telegraf.git",
   "license": "MIT",
   "author": "Alexander Bukhalo <a@bukhalo.com>",
   "contributors": [
