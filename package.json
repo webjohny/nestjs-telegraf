@@ -1,6 +1,6 @@
 {
-  "name": "nestjs-telegraf",
-  "version": "2.4.0",
+  "name": "@webjohny/nestjs-telegraf",
+  "version": "2.4.1",
   "description": "Telegraf module for NestJS",
   "keywords": [
     "nest",
@@ -14,7 +14,6 @@
     "bot api",
     "bot framework"
   ],
-  "homepage": "https://nestjs-telegraf.vercel.app/",
   "bugs": {
     "url": "https://github.com/webjohny/nestjs-telegraf/issues"
   },
@@ -23,8 +22,8 @@
   "author": "Alexander Bukhalo <a@bukhalo.com>",
   "contributors": [
     {
-      "name": "Arthur Asimov",
-      "email": "arthur.asimov.z0@gmail.com"
+      "name": "Eugene Henov",
+      "email": "geryh213921@gmail.com"
     }
   ],
   "main": "./dist/index.js",
