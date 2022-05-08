@@ -1,4 +1,4 @@
-import { Composer, Middleware, Telegraf } from 'telegraf';
+import { Composer, Middleware } from 'telegraf';
 
 export type Filter<T extends any[], F> = T extends []
   ? []
@@ -15,4 +15,4 @@ export type OnlyFunctionPropertyNames<T> = {
 export type ComposerMethodArgs<
   T extends Composer<never>,
   U extends OnlyFunctionPropertyNames<T> = OnlyFunctionPropertyNames<T>
-> = Filter<Parameters<<T>(T: U) => T>, Middleware<never>>;
+> = Filter<Parameters<() => U>, Middleware<never>>;
